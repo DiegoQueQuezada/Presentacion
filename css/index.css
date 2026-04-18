@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.encabezao {
+    padding: 15px;
+}
+.encabezao-nombre {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    font-size: 25px;
+    font-family: monospace;
+    color: #668591;
+}
+.contenido1 {
+    display: flex;
+    margin: 15px;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+}
+.contenido1-presentacion {
+    justify-content: center;
+    font-family: 22px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding: 22px;
+}
