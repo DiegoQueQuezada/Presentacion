@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    min-width: 350px;
+}
 .encabezao {
     padding: 15px;
 }
@@ -19,12 +22,64 @@
     margin: 15px;
     border-radius: 5px;
     border: 1px solid #d9d9d9;
+    flex-wrap: wrap;
+}
+.contenido1-imagen {
+    padding: 30px;
+    justify-content: center;
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    align-items: center;
+}
+.contenido1-imagen img {
+    width: 265px;
+    margin: 0 0 10px 0;
 }
 .contenido1-presentacion {
     justify-content: center;
     font-family: 22px;
     font-size: 18px;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     padding: 22px;
+    display: flex;
+    flex: 2 1 0;
+    min-width: 245px;
+    flex-direction: column;
+}
+.contenido1-imagen .stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenido1-presentacion .puesto {
+    font-family: "Segoe UI";
+    color: rgb(65, 130, 85);
+    font-family: "Segoe UI";
+    font-weight: 100;
+    text-align: center;
+    font-size: 45px;
+    line-break: anywhere;
+}
+.boton_perfil {
+    color: rgb(65, 130, 85);
+    display: block;
+    font-weight: unset;
+    box-shadow: black 0px 1px 10px -5px;
+    background: rgb(255, 255, 255);
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+    margin: 30px auto auto;
+    padding: 10px 5px;
+    transition: 0.5s;
+    width: 130px;
+    margin: 5px;
+}
+.boton_perfil:hover {
+    color: white;
+    background: rgb(65, 130, 85);
 }
